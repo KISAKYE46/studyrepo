@@ -1,0 +1,31 @@
+git init #for initializing the  repository
+
+git status # for checking status
+
+git diff #to view previous changes
+
+git add dirName #to stage changes
+
+git rm --cached fileName #to remove the file from staged files
+
+git commit -a -m  "Message" 
+
+git log # to view previous history
+
+git log -p #to view previous history like a paragraph
+
+git branch newBranchName #to create a new branch
+
+git branch #to view current branches i
+
+git switch newBranchName #to change to a new newBranchName
+
+git merge -m "Some Text" newBranchName #to merge changes from the new branch to those in the old branch
+
+git branch -d newBranchName #to deleteBranch
+
+git checkout -b newBranchName #to create and switch to new branch
+
+git push -u origin master  #to push changes to the remote server
+
+git clean -xdf #clean utracked changes
